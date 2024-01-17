@@ -1,0 +1,13 @@
+prefix=/Users/yasar/Documents/Projects/SQL Project/venv
+exec_prefix=/Users/yasar/Documents/Projects/SQL Project/venv
+libdir=/Users/yasar/Documents/Projects/SQL Project/venv/lib
+sharedlibdir=/Users/yasar/Documents/Projects/SQL Project/venv/lib
+includedir=/Users/yasar/Documents/Projects/SQL Project/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
